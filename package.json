@@ -1,0 +1,8 @@
+{
+  "description": "Grow your plants and feel good!",
+  "repository": "github:bartfeenstra/orangerie",
+  "license": "SEE LICENSE IN LICENSE",
+  "require": {
+    "phaser": "^3.15.1"
+  }
+}
