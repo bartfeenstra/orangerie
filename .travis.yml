@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "10"
+  - "11"
+
+addons:
+  apt:
+    packages:
+      - shellcheck
+
+before_script:
+  - ./bin/build
+
+script:
+  - ./bin/test
