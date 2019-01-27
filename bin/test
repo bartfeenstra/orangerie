@@ -4,6 +4,7 @@ set -Eeuo pipefail
 
 cd "$(dirname "$0")/.."
 
+# ShellCheck.
 while read -r pattern; do
     while read -r file; do
         shellcheck -x "$file"
@@ -11,3 +12,6 @@ while read -r pattern; do
 done << 'EOF'
 ^\./bin/.*$
 EOF
+
+# ESLint.
+./node_modules/eslint/bin/eslint.js .
