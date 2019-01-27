@@ -1,3 +1,5 @@
+# Build artifacts.
+/build
+
 # Third-party files.
 /node_modules
-
