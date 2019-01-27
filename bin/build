@@ -4,4 +4,6 @@ set -Eeuo pipefail
 
 cd "$(dirname "$0")/.."
 
+mkdir -p assets
 npm install
+npm run build
