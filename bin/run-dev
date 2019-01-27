@@ -4,4 +4,4 @@ set -Eeuo pipefail
 
 cd "$(dirname "$0")/.."
 
-./node_modules/http-server/bin/http-server -p 8081 ./public
+npm run run-dev
